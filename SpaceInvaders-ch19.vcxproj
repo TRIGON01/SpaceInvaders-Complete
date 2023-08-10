@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{11794e93-21fc-487a-a425-1746ce5ba194}</ProjectGuid>
+    <RootNamespace>SpaceInvadersch19</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\sharm\Documents\Dependencies\SFML-2.5.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\sharm\Documents\Dependencies\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;flac.lib;freetype.lib;ogg.lib;openal32.lib;sfml-audio.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-main.lib;sfml-network.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\sharm\Documents\Dependencies\SFML-2.5.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\sharm\Documents\Dependencies\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;flac.lib;freetype.lib;ogg.lib;openal32.lib;sfml-audio.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-main.lib;sfml-network.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BitmapStore.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BlueprintObjectParser.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BulletSpawner.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BulletUpdateComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Button.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ColliderComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Component.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\DevelopState.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameEngine.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObject.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectBlueprint.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectFactoryPlayMode.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectSharer.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverInputHandler.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverUIPanel.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameUIPanel.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GraphicsComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\InputHandler.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\InvaderUpdateComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\LevelManager.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ObjectTags.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PhysicsEnginePlayMode.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PlayerUpdateComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PlayModeObjectLoader.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\RectColliderComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Screen.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ScreenManager.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ScreenManagerRemoteControl.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectScreen.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SoundEngine.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\StandardGraphicsComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\TransformComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UIPanel.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UpdateComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\WorldState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BitmapStore.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BlueprintObjectParser.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BulletSpawner.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BulletUpdateComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Button.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ColliderComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Component.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameEngine.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObject.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectBlueprint.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectFactoryPlayMode.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverInputHandler.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverUIPanel.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameUIPanel.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GraphicsComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\InputHandler.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\InvaderUpdateComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\LevelManager.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ObjectTags.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PhysicsEnginePlayMode.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PlayerUpdateComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PlayModeObjectLoader.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\RectColliderComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Screen.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ScreenManager.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ScreenManagerRemoteControl.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectScreen.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SoundEngine.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Space Invaders ++.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\StandardGraphicsComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\TransformComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UIPanel.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UpdateComponent.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

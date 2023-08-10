@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BitmapStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BlueprintObjectParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BulletSpawner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BulletUpdateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ColliderComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\DevelopState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectBlueprint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectFactoryPlayMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectSharer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverInputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverUIPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameUIPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GraphicsComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\InvaderUpdateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\LevelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ObjectTags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PhysicsEnginePlayMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PlayerUpdateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PlayModeObjectLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ScreenManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ScreenManagerRemoteControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SoundEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\StandardGraphicsComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\TransformComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UIPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UpdateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\WorldState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\RectColliderComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\TransformComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UIPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UpdateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BitmapStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BlueprintObjectParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BulletSpawner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\BulletUpdateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ColliderComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectBlueprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameObjectFactoryPlayMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverInputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverUIPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameUIPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GraphicsComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\InputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\InvaderUpdateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\LevelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ObjectTags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PhysicsEnginePlayMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PlayerUpdateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\PlayModeObjectLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\RectColliderComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ScreenManagerRemoteControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SoundEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Space Invaders ++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\StandardGraphicsComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
